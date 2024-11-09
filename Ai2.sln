@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ai2", "Ai2.csproj", "{D4ADEE46-9C44-4D2F-9301-D57EA4D60A37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13652D04-9457-4536-A964-BB27B6F5C249} = {13652D04-9457-4536-A964-BB27B6F5C249}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA256", "..\SHA256\SHA256.csproj", "{13652D04-9457-4536-A964-BB27B6F5C249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHA256", "..\SHA256\SHA256.csproj", "{13652D04-9457-4536-A964-BB27B6F5C249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
